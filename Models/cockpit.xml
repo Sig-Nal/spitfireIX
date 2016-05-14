@@ -95,7 +95,7 @@
       </offsets>
     </model>
     <model>
-    <path>Aircraft/F4U/Models/Instruments/PB/park-brake-light.xml</path>
+    <path>Aircraft/spitfireIX/Models/Instruments/PB/park-brake-light.xml</path>
       <!--offsets> 
         <x-m>3.817</x-m>
         <y-m>-0.275</y-m>
@@ -107,6 +107,34 @@
         <z-m>0.25</z-m>
       </offsets>
     </model>
+ <model>
+    <name>deployedHooklight</name>
+    <path>Aircraft/spitfireIX/Models/Instruments/PB/hook-light.xml</path>
+    <offsets>
+        <x-m>3.8175</x-m>
+        <y-m>-0.235</y-m>
+        <z-m>0.25</z-m>
+    </offsets>
+  </model>
+
+ <model>
+    <name>landinglight</name>
+    <path>Aircraft/spitfireIX/Models/Instruments/PB/land-light.xml</path>
+    <offsets>
+        <x-m>3.8175</x-m>
+        <y-m>-0.270</y-m>
+        <z-m>0.29</z-m>
+    </offsets>
+  </model>
+ <model>
+    <name>instrulight</name>
+    <path>Aircraft/spitfireIX/Models/Instruments/PB/light.xml</path>
+    <offsets>
+        <x-m>3.8175</x-m>
+        <y-m>-0.270</y-m>
+        <z-m>0.25</z-m>
+    </offsets>
+  </model>
     <model>
       <path>Aircraft/spitfireIX/Models/Instruments/asi400/asi.xml</path>
       <offsets> 
