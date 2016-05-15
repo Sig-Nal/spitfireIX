@@ -176,10 +176,10 @@ YASim aerodynamic model for a Spitfire Mk IX
                  dst0="1.0" dst1="0.0"/>
 </gear>
 
-<!-- Launch-bar -->
+<!-- Launch-bar -->   <!-- droit = z="-1.25" -->
 	<launchbar x="0.5"
 						 y="0.0"
-						 z="-1.25"
+						 z="-2.25"  
 						 length="2.0">
 		<control-input axis="/controls/gear/launchbar"
 									 control="LEXTEND"/>
