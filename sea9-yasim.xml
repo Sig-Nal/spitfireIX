@@ -177,14 +177,14 @@ YASim aerodynamic model for a Spitfire Mk IX
 </gear>
 
 <!-- Launch-bar -->
-	<launchbar x="2.30"
+	<launchbar x="0.5"
 						 y="0.0"
 						 z="-1.25"
-						 length="1.0">
+						 length="2.0">
 		<control-input axis="/controls/gear/launchbar"
 									 control="LEXTEND"/>
 		<control-speed control="LEXTEND"
-									 transition-time="1"/>
+									 transition-time="0.5"/>
 	</launchbar>
 
 <!-- pilot -->
