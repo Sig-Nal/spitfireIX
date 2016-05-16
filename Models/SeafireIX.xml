@@ -123,7 +123,7 @@
 
 <model>
 	<name>cockpit</name>
-  <path>Aircraft/spitfireIX/Models/cockpit.xml</path>
+  <path>Aircraft/spitfireIX/Models/cockpit2.xml</path>
   <offsets>
         <x-m>0.0</x-m>
         <y-m>0.0</y-m>
@@ -748,7 +748,7 @@
 
   <model>
    <!--path>Aircraft/Generic/Human/Models/pilot.xml</path-->
-   <path>Aircraft/spitfireIX/Models/Pilot/pilot.xml</path>
+   <path>Aircraft/spitfireIX/Models/Pilot/pilot2.xml</path>
    <name>pilot</name>
 		<nopreview/>
     <offsets> 

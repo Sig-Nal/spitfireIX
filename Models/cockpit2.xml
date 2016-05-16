@@ -107,6 +107,15 @@
         <z-m>0.25</z-m>
       </offsets>
     </model>
+ <model>
+    <name>deployedHooklight</name>
+    <path>Aircraft/spitfireIX/Models/Instruments/PB/hook-light.xml</path>
+    <offsets>
+        <x-m>3.8175</x-m>
+        <y-m>-0.235</y-m>
+        <z-m>0.25</z-m>
+    </offsets>
+  </model>
 
  <model>
     <name>landinglight</name>
