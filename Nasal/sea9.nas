@@ -26,7 +26,7 @@ var toggle_tailhook = func {
 
 aircraft.steering.init();
 
-aircraft.livery.init("Aircraft/spitfireIX/Models/Liveries", "sim/model/livery/name");
+aircraft.livery.init("Aircraft/spitfireIX/Models/Liveries-s", "sim/model/livery/name");
 
 var door = aircraft.door.new ("/controls/doors/door/",1.5);
 
