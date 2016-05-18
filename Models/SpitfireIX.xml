@@ -121,6 +121,16 @@
     <object-name>coolflap.R</object-name>
   </effect>
 
+  <!-- A shadow for OSG without Rembrandt  -->
+  <model>
+    <path>Aircraft/spitfireIX/Models/Shadow/shadow.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.850 </z-m>
+    </offsets>
+  </model>
+
 <model>
 	<name>cockpit</name>
   <path>Aircraft/spitfireIX/Models/cockpit.xml</path>

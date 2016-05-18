@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+    #########################################################################################
+    Antonov-Aircrafts and SpaceShuttle :: Herbert Wagner November2014-June2015
+    Animations, FDM, Instrumentation, Rembrandt, ALS, Paratroopers, Cargo, Sounds
+    all with full Multiplayer Support.
+    Development is ongoing, see latest version: https://github.com/HerbyW?tab=repositories
+    This file is licenced under the terms of the GNU General Public Licence V3 or later
+    D-Leon: technical assistance
+    Firefly: 3D model improvment
+    Eagel: Liveries
+    Michat, Joe, Miguel, 3m, D-07007 and many others: testing and giving hints for impovements
+    Instruments from; Tu-154b, Il-76D, 707
+    ##########################################################################################
+-->
+
+<PropertyList>
+
+  <path>shadow.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+
+    <!-- Objets transparents -->
+    <object-name>shadow</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>shadow</object-name>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>shadow</object-name>
+    <condition>
+     <and>
+       <not><property>/sim/rendering/rembrandt/enabled</property></not>
+       <not><property>sim/multiplay/generic/int[7]</property></not>      <!--int type="int" n="7" alias="/sim/replay/replay-state">  0 </int-->
+     </and>
+    </condition>
+  </animation>
+
+  <!-- pitch -->
+  <animation>
+    <type>rotate</type>
+    <object-name>shadow</object-name>
+    <property>sim/multiplay/generic/float[14]</property>    	      <!--float n="14" alias="/orientation/pitch-deg"/-->
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+  <!-- roll -->
+  <animation>
+    <type>rotate</type>
+    <object-name>shadow</object-name>
+    <property>sim/multiplay/generic/float[15]</property>    	      <!--float n="15" alias="/orientation/roll-deg"/-->
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <!-- Translate to ground level -->
+  <animation>
+   <type>translate</type>
+   <object-name>shadow</object-name>
+   <property>sim/multiplay/generic/float[1]</property>	      <!--float n="2" alias="/position/gear-agl-m"> 0 </float-->
+   <axis>
+     <x>  0 </x>
+     <y>  0 </y>
+     <z> -1 </z>
+   </axis>
+ </animation>
+
+</PropertyList>
+
