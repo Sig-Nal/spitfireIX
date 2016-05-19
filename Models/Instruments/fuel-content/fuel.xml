@@ -5,7 +5,7 @@
     <animation> 
       <type>rotate</type>
       <object-name>Needle2</object-name>
-      <property>consumables/fuel/tank[1]/level-gal_us</property>
+      <property>consumables/fuel/tank[0]/level-gal_us</property>
       <interpolation> 
         <entry> 
           <ind>0</ind>
